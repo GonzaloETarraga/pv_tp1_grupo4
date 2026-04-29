@@ -88,3 +88,15 @@ p{
 ul{
     padding-left: 20px;
 }
+
+footer {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+header h1 {
+    color: var(--color-blanco);
+}
