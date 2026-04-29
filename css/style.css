@@ -1,0 +1,90 @@
+/* variables globales*/
+:root {
+    --color-principal:#264653;
+    --color-secundario: #2a9d8f;
+    --color-fondo: #f4f4f4;
+    --color-texto: #1f2937;
+    --color-blanco: #ffffff;
+    --fuente: Arial, sans-serif;
+    
+}
+
+/* config general*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--fuente);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+/*encabezado*/
+header{
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    padding: 20px;
+    text-align: center;
+}
+
+/*navegacion*/
+nav{
+    background-color: var(--color-secundario);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+
+}
+
+nav a{
+    color: var(--color-blanco);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: var(--color-blanco);
+}
+
+nav a:active{
+    transform: scale(0.95);
+}
+
+nav a:focus{
+    outline: 2px solid var(--color-blanco);
+}
+
+/*contenido principal*/
+main{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+/*secciones generales*/
+section{
+    background-color: var(--color-blanco);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*titulos*/
+h1, h2, h3{
+    color: var(--color-principal);
+    margin-bottom: 15px;
+}
+
+/*parrafos*/
+p{
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/*listas*/
+ul{
+    padding-left: 20px;
+}
